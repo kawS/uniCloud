@@ -1,0 +1,25 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index"
+		}
+	],
+  "subpackages": [
+  	{
+  		"root": "subCardList",
+  		"pages": [
+  			{
+  				"path": "pages/list/index"
+  			}
+  		]
+  	}
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Dragon Ball Super Card Game Fusion World",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+  "lazyCodeLoading": "requiredComponents"
+}
