@@ -1,7 +1,0 @@
-{
-  "usingComponents": {
-    "unicloud-db": "../../../node-modules/@dcloudio/uni-components/lib/unicloud-db/unicloud-db",
-    "empty-list": "../../../components/emptyList/index",
-    "copy-right": "../../../components/copyright/index"
-  }
-}
